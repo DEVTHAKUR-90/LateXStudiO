@@ -1,0 +1,79 @@
+/* ═══════════════════════════════════════
+   LaTeXStudio v4.0 — variables.css
+   All design tokens — colors, spacing, radius, shadows, type
+   ═══════════════════════════════════════ */
+
+:root {
+  /* Backgrounds — layered depth */
+  --bg-void:        #07070a;
+  --bg-base:        #0d0d12;
+  --bg-surface:     #11111a;
+  --bg-elevated:    #17171f;
+  --bg-overlay:     #1e1e28;
+  --bg-hover:       #252530;
+  --bg-active:      #2c2c3a;
+  --bg-selection:   rgba(245,158,11,0.15);
+
+  /* Borders */
+  --border-ghost:   #1a1a24;
+  --border-subtle:  #222230;
+  --border-default: #2e2e40;
+  --border-strong:  #3d3d52;
+  --border-focus:   #f59e0b;
+
+  /* Text */
+  --text-primary:   #f0f0f8;
+  --text-secondary: #9898b0;
+  --text-muted:     #555568;
+  --text-disabled:  #3a3a4a;
+
+  /* Accent — Electric Amber */
+  --accent:         #f59e0b;
+  --accent-hover:   #fbbf24;
+  --accent-dim:     rgba(245,158,11,0.12);
+  --accent-glow:    rgba(245,158,11,0.25);
+  --accent-text:    #0d0d12;
+
+  /* Semantic */
+  --color-success:  #22c55e;
+  --color-error:    #f87171;
+  --color-warning:  #fb923c;
+  --color-info:     #60a5fa;
+
+  /* Syntax highlighting */
+  --syn-command:    #7dd3fc;
+  --syn-env:        #6ee7b7;
+  --syn-math:       #f9a8d4;
+  --syn-comment:    #4a5568;
+  --syn-brace:      #94a3b8;
+  --syn-option:     #fdba74;
+  --syn-string:     #86efac;
+  --syn-num:        #c4b5fd;
+  --syn-error-bg:   rgba(248,113,113,0.12);
+
+  /* Spacing */
+  --space-1: 2px;   --space-2: 4px;   --space-3: 8px;
+  --space-4: 12px;  --space-5: 16px;  --space-6: 20px;
+  --space-7: 24px;  --space-8: 32px;  --space-9: 48px;
+
+  /* Radius */
+  --r-xs: 3px;  --r-sm: 5px;  --r-md: 8px;
+  --r-lg: 12px; --r-xl: 16px; --r-2xl: 24px;
+
+  /* Shadows */
+  --shadow-xs:   0 1px 2px rgba(0,0,0,0.4);
+  --shadow-sm:   0 2px 8px rgba(0,0,0,0.5);
+  --shadow-md:   0 8px 24px rgba(0,0,0,0.6);
+  --shadow-lg:   0 16px 48px rgba(0,0,0,0.7);
+  --shadow-glow: 0 0 20px var(--accent-glow);
+
+  /* Transitions */
+  --ease-snap:   cubic-bezier(0.2, 0, 0, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --t-fast: 100ms;  --t-base: 180ms;  --t-slow: 300ms;
+
+  /* Typography */
+  --font-ui:      'DM Sans', system-ui, sans-serif;
+  --font-editor:  'JetBrains Mono', 'Fira Code', monospace;
+  --font-display: 'Instrument Serif', Georgia, serif;
+}

@@ -1,0 +1,185 @@
+/* ═══════════════════════════════════════
+   LaTeXStudio v4.0 — preview.css
+   Preview panel content styling (paper feel even in dark mode)
+   ═══════════════════════════════════════ */
+
+.preview-body {
+  flex: 1;
+  overflow-y: auto;
+  background: #fefefe;
+  /* Always paper-like, regardless of editor theme */
+}
+[data-theme="parchment"] .preview-body { background: #fffef7; }
+
+.preview-content {
+  font-family: 'Charter', 'Georgia', 'Times New Roman', serif;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 64px;
+  color: #1a1a2e;
+  font-size: 14px;
+  line-height: 1.7;
+  transform-origin: top center;
+}
+
+.preview-content h1 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0 0 24px;
+  color: #0a0a18;
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 12px;
+  text-align: center;
+}
+.preview-content h2 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 400;
+  margin: 36px 0 14px;
+  color: #1a1a2e;
+}
+.preview-content h3 {
+  font-family: var(--font-ui);
+  font-size: 17px;
+  font-weight: 600;
+  margin: 24px 0 10px;
+  color: #1a1a2e;
+}
+.preview-content h4 {
+  font-family: var(--font-ui);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  margin: 18px 0 8px;
+  color: #2a2a3a;
+}
+.preview-content p { margin: 0 0 12px; text-align: justify; }
+.preview-content ul, .preview-content ol { padding-left: 28px; margin: 12px 0; }
+.preview-content li { margin: 4px 0; }
+
+.preview-content blockquote {
+  border-left: 3px solid #ddd;
+  padding-left: 16px;
+  margin: 14px 0;
+  color: #666;
+  font-style: italic;
+}
+.preview-content code {
+  background: #f4f4f4;
+  font-family: var(--font-editor);
+  font-size: 13px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #c7254e;
+}
+.preview-content pre {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  padding: 18px 20px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: var(--font-editor);
+  font-size: 13px;
+  line-height: 1.55;
+}
+.preview-content pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.preview-content table {
+  border-collapse: collapse;
+  margin: 16px auto;
+  width: auto;
+  max-width: 100%;
+}
+.preview-content td, .preview-content th {
+  padding: 8px 14px;
+  border: 1px solid #e5e5e5;
+}
+.preview-content th { background: #f8f8f8; font-weight: 600; }
+
+.preview-content figure {
+  text-align: center;
+  margin: 18px 0;
+}
+.preview-content figure img { max-width: 100%; height: auto; }
+.preview-content figcaption {
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+  margin-top: 6px;
+}
+
+.preview-content a { color: #0066cc; text-decoration: none; }
+.preview-content a:hover { text-decoration: underline; }
+
+.preview-content .doc-title {
+  text-align: center;
+  font-size: 32px;
+  margin: 0 0 14px;
+}
+.preview-content .doc-author {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+}
+.preview-content .doc-abstract {
+  margin: 24px 0;
+  padding: 16px 20px;
+  background: #f9fafb;
+  border-left: 3px solid #d1d5db;
+  font-size: 13px;
+}
+.preview-content .doc-abstract-label {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  color: #6b7280;
+}
+.preview-content .doc-thm {
+  margin: 12px 0;
+  padding: 10px 14px;
+  background: #f9fafb;
+  border-left: 3px solid #6b7280;
+}
+.preview-content .doc-tcolorbox {
+  margin: 14px 0;
+  padding: 14px 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #f9fafb;
+}
+.preview-content .doc-unrendered {
+  margin: 14px 0;
+  padding: 22px;
+  background: #f3f4f6;
+  border: 1px dashed #d1d5db;
+  border-radius: 6px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 13px;
+}
+.preview-content .doc-center { text-align: center; margin: 12px 0; }
+
+/* KaTeX math styling */
+.preview-content .katex { color: #1a1a2e; font-size: 1em; }
+.preview-content .katex-display {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Empty state */
+.preview-empty {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 13px;
+}

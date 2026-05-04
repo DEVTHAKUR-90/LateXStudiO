@@ -1,0 +1,171 @@
+/* ═══════════════════════════════════════
+   LaTeXStudio v4.0 — themes.css
+   All five themes: Dark Editorial, Light Paper, Solarized Dark,
+                    Midnight Ocean, Warm Parchment
+   ═══════════════════════════════════════ */
+
+/* ────────── Theme 1: Dark Editorial (default) ────────── */
+[data-theme="dark"] {
+  /* Inherits root defaults from variables.css */
+}
+
+/* ────────── Theme 2: Light Paper ────────── */
+[data-theme="light"] {
+  --bg-void:        #f5f5f0;
+  --bg-base:        #fafaf6;
+  --bg-surface:     #ffffff;
+  --bg-elevated:    #f8f8f2;
+  --bg-overlay:     #ffffff;
+  --bg-hover:       #ececeb;
+  --bg-active:      #dedeb8;
+  --bg-selection:   rgba(217,119,6,0.18);
+
+  --border-ghost:   #ededea;
+  --border-subtle:  #d6d6d0;
+  --border-default: #c8c8c2;
+  --border-strong:  #a8a8a0;
+  --border-focus:   #d97706;
+
+  --text-primary:   #18181b;
+  --text-secondary: #4b4b52;
+  --text-muted:     #8a8a8f;
+  --text-disabled:  #b0b0b8;
+
+  --accent:         #d97706;
+  --accent-hover:   #b45309;
+  --accent-dim:     rgba(217,119,6,0.12);
+  --accent-glow:    rgba(217,119,6,0.22);
+  --accent-text:    #ffffff;
+
+  --syn-command:    #1d4ed8;
+  --syn-env:        #047857;
+  --syn-math:       #a21caf;
+  --syn-comment:    #64748b;
+  --syn-brace:      #475569;
+  --syn-option:     #c2410c;
+  --syn-string:     #a16207;
+  --syn-num:        #6d28d9;
+
+  --shadow-xs:   0 1px 2px rgba(0,0,0,0.06);
+  --shadow-sm:   0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md:   0 8px 24px rgba(0,0,0,0.10);
+  --shadow-lg:   0 16px 48px rgba(0,0,0,0.14);
+}
+
+/* ────────── Theme 3: Solarized Dark ────────── */
+[data-theme="solarized"] {
+  --bg-void:        #001a20;
+  --bg-base:        #002b36;
+  --bg-surface:     #073642;
+  --bg-elevated:    #094352;
+  --bg-overlay:     #0a4a5c;
+  --bg-hover:       #14586b;
+  --bg-active:      #1c6478;
+  --bg-selection:   rgba(181,137,0,0.22);
+
+  --border-ghost:   #073642;
+  --border-subtle:  #0e4856;
+  --border-default: #1d6478;
+  --border-strong:  #2e7388;
+  --border-focus:   #b58900;
+
+  --text-primary:   #fdf6e3;
+  --text-secondary: #93a1a1;
+  --text-muted:     #586e75;
+  --text-disabled:  #475a61;
+
+  --accent:         #b58900;
+  --accent-hover:   #cb9c0f;
+  --accent-dim:     rgba(181,137,0,0.18);
+  --accent-glow:    rgba(181,137,0,0.30);
+  --accent-text:    #002b36;
+
+  --syn-command:    #268bd2;
+  --syn-env:        #2aa198;
+  --syn-math:       #d33682;
+  --syn-comment:    #586e75;
+  --syn-brace:      #93a1a1;
+  --syn-option:     #cb4b16;
+  --syn-string:     #859900;
+  --syn-num:        #6c71c4;
+}
+
+/* ────────── Theme 4: Midnight Ocean ────────── */
+[data-theme="ocean"] {
+  --bg-void:        #020b18;
+  --bg-base:        #04111f;
+  --bg-surface:     #071828;
+  --bg-elevated:    #0c2237;
+  --bg-overlay:     #112c44;
+  --bg-hover:       #173855;
+  --bg-active:      #1d4366;
+  --bg-selection:   rgba(6,182,212,0.18);
+
+  --border-ghost:   #0a1c2e;
+  --border-subtle:  #1a3550;
+  --border-default: #234668;
+  --border-strong:  #305880;
+  --border-focus:   #06b6d4;
+
+  --text-primary:   #e0f2fe;
+  --text-secondary: #7dd3fc;
+  --text-muted:     #475569;
+
+  --accent:         #06b6d4;
+  --accent-hover:   #22d3ee;
+  --accent-dim:     rgba(6,182,212,0.14);
+  --accent-glow:    rgba(6,182,212,0.30);
+  --accent-text:    #04111f;
+
+  --syn-command:    #67e8f9;
+  --syn-env:        #34d399;
+  --syn-math:       #c084fc;
+  --syn-comment:    #475569;
+  --syn-brace:      #94a3b8;
+  --syn-option:     #fb923c;
+  --syn-string:     #86efac;
+  --syn-num:        #fcd34d;
+}
+
+/* ────────── Theme 5: Warm Parchment ────────── */
+[data-theme="parchment"] {
+  --bg-void:        #f0ebe0;
+  --bg-base:        #faf5e8;
+  --bg-surface:     #fffef7;
+  --bg-elevated:    #f5efe0;
+  --bg-overlay:     #fffaef;
+  --bg-hover:       #ebe2cf;
+  --bg-active:      #d9cdb2;
+  --bg-selection:   rgba(192,57,43,0.16);
+
+  --border-ghost:   #ebe2cf;
+  --border-subtle:  #d4c4a0;
+  --border-default: #c2af85;
+  --border-strong:  #a08a5e;
+  --border-focus:   #c0392b;
+
+  --text-primary:   #2c1810;
+  --text-secondary: #6b4226;
+  --text-muted:     #8c6e4a;
+  --text-disabled:  #b0967a;
+
+  --accent:         #c0392b;
+  --accent-hover:   #e74c3c;
+  --accent-dim:     rgba(192,57,43,0.12);
+  --accent-glow:    rgba(192,57,43,0.22);
+  --accent-text:    #fffef7;
+
+  --syn-command:    #1565c0;
+  --syn-env:        #2e7d32;
+  --syn-math:       #6a1b9a;
+  --syn-comment:    #757575;
+  --syn-brace:      #5d4037;
+  --syn-option:     #ef6c00;
+  --syn-string:     #6b4226;
+  --syn-num:        #4527a0;
+
+  --shadow-xs:   0 1px 2px rgba(60,30,10,0.08);
+  --shadow-sm:   0 2px 8px rgba(60,30,10,0.10);
+  --shadow-md:   0 8px 24px rgba(60,30,10,0.14);
+  --shadow-lg:   0 16px 48px rgba(60,30,10,0.18);
+}
