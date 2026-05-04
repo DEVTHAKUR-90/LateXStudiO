@@ -136,8 +136,8 @@
 
 ```bash
 # Clone or download
-git clone https://github.com/<you>/<repo>.git
-cd <repo>
+git clone https://github.com/DEVTHAKUR-90/LateXStudiO.git
+cd LateXStudiO
 
 # Open in browser — that's it
 open index.html        # macOS
